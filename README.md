@@ -11,13 +11,6 @@ A sleek and responsive student registration form built with HTML, CSS, and JavaS
 
 ---
 
-## 📸 Demo
-
-*Insert a screenshot or GIF of your form here*  
-*(Tip: Upload an image directly or link to one hosted online)*
-
----
-
 ## 🚀 Features
 
 - Collects student name, email, gender, courses, and more  
