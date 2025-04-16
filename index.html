@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Course</title>
+</head>
+
+<body>
+    <style>
+        * {
+            background-color: #E8E8E8
+        }
+
+        input:focus {
+            outline: none;
+            border: none;
+        }
+    </style>
+
+    <h1 style="text-align: center;">Student Form</h1>
+    <form id="studentform">
+
+        <table style="padding: 5px;" border="2" border-style: solid;" align="center">
+            <tr>
+                <th style="padding: 5px;" border="2" border-style: solid;">Name</th>
+                <td style="padding: 5px;" border="2" border-style: solid;"><input id="name" type="text"
+                        placeholder="Enter Your Name"></td>
+            </tr>
+            <tr>
+                <th style="padding: 5px;" border="2" border-style: solid;">Age</th>
+                <td style="padding: 5px;" border="2" border-style: solid;"><input id="age" type="number"
+                        placeholder="Enter Your Age"></td>
+            </tr>
+            <tr>
+                <th style="padding: 5px;" border="2" border-style: solid;">Gender</th>
+                <td style="padding: 5px;" border="2" border-style: solid;">
+                    <input type="radio" name="gender" value="Male" required>Male
+                    <input type="radio" name="gender" value="Female">Female
+                </td>
+            </tr>
+            <tr>
+                <th style="padding: 5px;" border="2" border-style: solid;">Course</th>
+                <td style="padding: 5px;" border="2" border-style: solid;">
+                    <select id="course" style="width: 100%;">
+                        <option>Javascript</option>
+                        <option>C++</option>
+                        <option>Python</option>
+                        <option>Node</option>
+                        <option>React</option>
+                        <option>MongoDB</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th style="padding: 5px;" border="2" border-style: solid;">E-Mail</th>
+                <td style="padding: 5px;" border="2" border-style: solid;"><input id="email" type="email"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit"
+                        style="background-color: skyblue; width: 100%; padding: 5px; font-weight: bolder; font-size: medium;">Save</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+    <h2 style="text-align: center;">Student Data</h2>
+
+    <table id="studenttable" style="padding: 5px;" border="1" border-style: solid;" align="center">
+        <thead style="border: 1px; border-style: solid black; border-collapse: collapse; padding: 10px;">
+            <tr style="border: 1px; border-style: solid black; border-collapse: collapse; padding: 10px;">
+                <th style="padding: 10px; border: 1px; border-style: solid; gap: 10px;">Name</th>
+                <th style="padding: 10px; border: 1px; border-style: solid; gap: 10px;">Age</th>
+                <th style="padding: 10px; border: 1px; border-style: solid; gap: 10px;">Gender</th>
+                <th style="padding: 10px; border: 1px; border-style: solid; gap: 10px;">Course</th>
+                <th style="padding: 10px; border: 1px; border-style: solid; gap: 10px;">Email</th>
+                <th style="padding: 10px; border: 1px; border-style: solid; gap: 10px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+
+    <script src="script.js.js"></script>
+</body>
+
+</html>
